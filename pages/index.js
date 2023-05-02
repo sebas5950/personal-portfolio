@@ -1,14 +1,29 @@
-import Image from 'next/image'
+import Header from '@/components/Header'
 import { Inter } from 'next/font/google'
-
+import Hero from '@/components/Hero'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main className="">
-     
-      <section className='bg-blue-700 h-screen min-h-screen'>hello</section>
-    </main>
+    <div className="">
+
+      <Header />
+     {/* Hero */}
+     <section id='hero'>
+      <Hero />
+     </section>
+
+     {/* About */}
+
+     {/* experience */}
+
+     {/* Skills */}
+
+     {/* Projects */}
+
+     {/* Contact Me */}
+
+    </div>
   )
 }
