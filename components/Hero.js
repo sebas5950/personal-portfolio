@@ -10,7 +10,7 @@ export default function Hero() {
       "<ButLovesToCodeMore />",
     ],
     loop: true,
-    delaySpeed: 2000,
+    delaySpeed: 2500,
   });
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
@@ -22,7 +22,7 @@ export default function Hero() {
       />
       <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">Software Engineer</h2>
-        <h1 className="text-5xl lg:text-6xl font-semibold px-10">
+        <h1 className="text-5xl lg:text-4xl font-semibold px-10">
           <span className="mr-3">My name is Alex and I am a {text}</span>
           <Cursor cursorColor="#F7AB0A" />
         </h1>
