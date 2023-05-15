@@ -15,7 +15,7 @@ export default function Projects() {
               alt="Project Image"
             />
             <div>
-              <h4>Case Study 1 of 3: UPS clone</h4>
+              <h4>Case Study 1 of 3: UPS clone only a closne</h4>
             </div>
           </div>
         ))}
