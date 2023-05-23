@@ -30,7 +30,7 @@ const Object = [
         id: 4,
         title: "League of Legends item builder",
         description: "",
-        technologies: "",
+        technologies: "React.JS, HTML, CSS, Ruby, Ruby on Rails, Material.UI, BootStrap",
         img: "",
         giturl: "",
         url: "",

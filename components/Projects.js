@@ -1,5 +1,6 @@
 import React from "react";
 import Object from "./Object";
+import Image from "next/image";
 
 export default function Projects() {
   console.log(Object);
@@ -7,7 +8,7 @@ export default function Projects() {
   return (
     <div className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly mx-auto items-center z-0 ">
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
-        Projects
+        Projects I am back at it no giving up
       </h3>
       <div className="relative flex w-full overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
         {Object.map((project) => (
@@ -18,7 +19,9 @@ export default function Projects() {
             <img src={project.img} alt="Project Image" />
 
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
-              <h4 className="text-4xl font-semibold text-center">{project.title}</h4>
+              <h4 className="text-4xl font-semibold text-center">
+                {project.title}
+              </h4>
             </div>
           </div>
         ))}
