@@ -57,7 +57,7 @@ export default function Projects() {
           </div>
         </div>
       ))}
-      <div className="w-full absolute top-[30%] bg-[#B7D7E6]/10 left-0 h-[500px] -skew-y-12">git</div>
+      <div className="w-full absolute top-[30%] bg-[#B7D7E6]/10 left-0 h-[500px] -skew-y-12"></div>
     </div>
   );
 }
