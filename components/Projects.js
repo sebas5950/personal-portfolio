@@ -21,7 +21,7 @@ export default function Projects() {
 
   return (
     <div className="h-screen relative flex justify-evenly items-center z-0 ">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl justify-center">
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Projects
       </h3>
       {Object.map((project, index) => (
@@ -35,14 +35,14 @@ export default function Projects() {
         >
           <div>
             <FaArrowCircleLeft
-            onClick={prevSlide}
+              onClick={prevSlide}
               className="absolute top-[50%] left-[30%] text-white/70 cursor-pointer select-none z-[2]"
               size={50}
             />
             {index === current && (
-              <div className="relative flex justify-center p-4">
+              <div className="relative justify-center p-4 border">
                 <img src={project.img} alt="Project Image" />
-                <div className="space-y-10 px-0 md:px-10 max-w-6xl">
+                <div className="space-y-10 px-0 md:px-10 max-w-6xl border">
                   <h4 className="text-4xl font-semibold text-center">
                     {project.title}
                   </h4>
@@ -50,7 +50,7 @@ export default function Projects() {
               </div>
             )}
             <FaArrowCircleRight
-            onClick={nextSlide}
+              onClick={nextSlide}
               className="absolute top-[50%] right-[30%] text-white/70 cursor-pointer select-none z-[2]"
               size={50}
             />

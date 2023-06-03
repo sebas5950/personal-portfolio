@@ -15,7 +15,7 @@ export default function BackgroundCircles() {
         duration: 2.5,
     }}
     className='relative flex justify-center items-center'>
-        <div className='absolute border border-[#9d0dc4] rounded-full h-[200px] w-[200px] mt-52 animate-ping'/>
+        <div className='absolute border border-[#9d0dc4] rounded-full h-[250px] w-[250px] mt-52 animate-ping'/>
         <div className='absolute border border-[#6c4e75] rounded-full h-[300px] w-[300px] mt-52'/>
         <div className='absolute border border-[#6c4e75] rounded-full h-[500px] w-[500px] mt-52'/>
         <div className='rounded-full border border-[#9d0dc4] opacity-20 h-[650px] w-[650px] absolute mt-52 animate-pulse'/>

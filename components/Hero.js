@@ -1,7 +1,8 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
-import Img from "../assets/picture.jpg"
+import Image from "next/image";
+// import Img from "../assets/picture.jpg"
 import Link from "next/link";
 export default function Hero() {
   const [text, count] = useTypewriter({
@@ -17,9 +18,11 @@ export default function Hero() {
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
-      <img
+      <Image
         className="realtive rounded-full h-32 w-32 mx-auto object-cover"
-        src={Img}
+        src="/picture.jpg"
+        width="200"
+        height="200"
         alt="Profile-Picture"
       />
       <div className="z-20">
