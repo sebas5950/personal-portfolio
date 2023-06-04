@@ -41,7 +41,7 @@ export default function About() {
           background
         </h4>
         <p className="text-base text-justify">
-          Full-Stack Software Engineer with experience in JavaScript, ReactJS,
+          Full-Stac Software Engineer with experience in JavaScript, ReactJS,
           Python, and Ruby on Rails, I am passionate about the constantly
           evolving tech industry. I enjoy the challenge of learning emerging
           trends and the problem-solving aspect of creating solutions. With a
